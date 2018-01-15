@@ -29,7 +29,7 @@ close(){
   this.viewCtrl.dismiss();
 }
 
-addArea(value :{title :string}){
+addArea(value :{title :string, score: string}){
 
 this.lifeSrvc.newArea(value);
 this.navCtrl.push(HomePage);
